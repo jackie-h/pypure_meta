@@ -48,7 +48,7 @@ class PropertyOwner(PackageableElement):
                  reference_usages: list["ReferenceUsage"] = None,
                  stereotypes: list["Stereotype"] = None,
                  tagged_values: list["TaggedValue"] = None):
-        super().__init__(name, package, reference_usages, stereotypes, tagged_values)
+        PackageableElement.__init__(self, name, package, reference_usages, stereotypes, tagged_values)
 
 
 class ReferenceUsage:
