@@ -1,7 +1,7 @@
 from meta.pure.metamodel import Referenceable, ReferenceUsage
 from meta.pure.metamodel.multiplicity import Multiplicity
-from meta.pure.metamodel.type import Type
-from meta.pure.metamodel.valuespecification import ValueSpecification
+#from meta.pure.metamodel.type import Type
+#from meta.pure.metamodel.valuespecification import ValueSpecification
 
 
 class GenericType(Referenceable):

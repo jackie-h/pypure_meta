@@ -1,7 +1,7 @@
-from meta.pure.metamodel import Any
-from meta.pure.metamodel.function import FunctionDefinition, Function
+
+#from meta.pure.metamodel.function import FunctionDefinition, Function
 from meta.pure.metamodel.multiplicity import Multiplicity
-from meta.pure.metamodel.type import FunctionType, Type
+#from meta.pure.metamodel.type import FunctionType, Type
 from meta.pure.metamodel.type.generics import GenericType
 from meta.pure.store import Store
 from meta.pure.metamodel.import_ import ImportGroup

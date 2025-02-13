@@ -1,6 +1,4 @@
-from meta import Package
-from meta.pure.metamodel import PackageableElement, PropertyOwner, Referenceable, ReferenceUsage, Stereotype, \
-    TaggedValue
+from meta.pure.metamodel import PropertyOwner, PackageableElement, Referenceable
 from meta.pure.metamodel.constraint import Constraint
 from meta.pure.metamodel.extension import ElementWithConstraints, AnnotatedElement
 from meta.pure.metamodel.function import FunctionDefinition, Function

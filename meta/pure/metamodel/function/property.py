@@ -1,9 +1,8 @@
-from enum import auto
+from enum import auto, Enum
 
-from meta.pure.metamodel import ModelElement, Stereotype, TaggedValue, ReferenceUsage, PropertyOwner
+from meta.pure.metamodel import ModelElement, ReferenceUsage, PropertyOwner
 from meta.pure.metamodel.function import Function, FunctionDefinition
 from meta.pure.metamodel.multiplicity import Multiplicity
-from meta.pure.metamodel.type import Enum
 from meta.pure.metamodel.type.generics import GenericType
 from meta.pure.metamodel.valuespecification import FunctionExpression, ValueSpecification
 

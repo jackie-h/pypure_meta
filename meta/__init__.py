@@ -1,16 +1,7 @@
-from meta.pure.metamodel import PackageableElement, Stereotype, TaggedValue, ReferenceUsage
+import meta.pure.metamodel as m
 
 
-class Package(PackageableElement):
 
-    def __init__(self, children: list["PackageableElement"] = None,
-                 name: str = None,
-                 package: "Package" = None,
-                 reference_usages: list["ReferenceUsage"] = None,
-                 stereotypes: list["Stereotype"] = None,
-                 tagged_values: list["TaggedValue"] = None):
-        super().__init__(name, package, reference_usages, stereotypes, tagged_values)
-        self.children = [] if children is None else children
 
 
 class SourceInformation():

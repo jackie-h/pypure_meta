@@ -1,6 +1,7 @@
-from meta import Package
-from meta.pure.metamodel.extension import AnnotatedElement, Stereotype, TaggedValue
-from meta.pure.metamodel.type import Any
+#from meta import Package
+#import meta.pure.metamodel.extension as ext
+#from meta.pure.metamodel.type import Any
+from meta.pure.metamodel.extension import AnnotatedElement
 
 
 class Referenceable:
@@ -29,6 +30,16 @@ class PackageableElement(ModelElement, Referenceable):
         Referenceable.__init__(self, reference_usages)
         self.package = package
 
+class Package(PackageableElement):
+
+    def __init__(self, children: list["PackageableElement"] = None,
+                 name: str = None,
+                 package: "Package" = None,
+                 reference_usages: list["ReferenceUsage"] = None,
+                 stereotypes: list["Stereotype"] = None,
+                 tagged_values: list["TaggedValue"] = None):
+        super().__init__(name, package, reference_usages, stereotypes, tagged_values)
+        self.children = [] if children is None else children
 
 class PropertyOwner(PackageableElement):
 

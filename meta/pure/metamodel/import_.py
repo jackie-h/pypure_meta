@@ -1,7 +1,7 @@
-from meta import Package
-from meta.pure.metamodel import PackageableElement, ReferenceUsage, Stereotype, TaggedValue, Any
-from meta.pure.metamodel.function.property import AbstractProperty
-from meta.pure.metamodel.type import Class, Enumeration, Enum
+#from meta import Package
+from meta.pure.metamodel import PackageableElement, ReferenceUsage
+#from meta.pure.metamodel.function.property import AbstractProperty
+#from meta.pure.metamodel.type import Class, Enumeration, Enum
 
 
 class ImportGroup(PackageableElement):

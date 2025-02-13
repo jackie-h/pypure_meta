@@ -1,8 +1,8 @@
 from enum import auto, Enum
 
-from meta.pure.metamodel import ModelElement, Stereotype, TaggedValue, Any
+from meta.pure.metamodel import ModelElement
 from meta.pure.metamodel.function import FunctionDefinition
-from meta.pure.metamodel.type import Class
+#from meta.pure.metamodel.type import Class
 
 
 class EnforcementLevel(Enum):

@@ -1,7 +1,7 @@
-from meta import Package
-from meta.pure.metamodel import Referenceable, PackageableElement, Stereotype, TaggedValue, ReferenceUsage
-from meta.pure.metamodel.constraint import Constraint
-from meta.pure.metamodel.valuespecification import FunctionExpression, ValueSpecification
+
+from meta.pure.metamodel import Referenceable, PackageableElement, ReferenceUsage
+#from meta.pure.metamodel.constraint import Constraint
+#from meta.pure.metamodel.valuespecification import FunctionExpression, ValueSpecification
 from meta.pure.test import Testable, Test
 
 

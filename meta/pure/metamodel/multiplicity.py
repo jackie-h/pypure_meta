@@ -1,5 +1,5 @@
-from meta import Package
-from meta.pure.metamodel import PackageableElement, ReferenceUsage, Stereotype, TaggedValue
+
+from meta.pure.metamodel import PackageableElement, ReferenceUsage
 
 
 class Multiplicity:

@@ -1,8 +1,8 @@
-from meta.pure.metamodel import AnnotatedElement, ReferenceUsage, Stereotype, TaggedValue, Any
+from meta.pure.metamodel import AnnotatedElement, ReferenceUsage
 from meta.pure.metamodel.function import FunctionDefinition
 from meta.pure.metamodel.function.property import AbstractProperty
 from meta.pure.metamodel.functions.collection import TreeNode
-from meta.pure.metamodel.type import GenericType
+#from meta.pure.metamodel.type import GenericType
 from meta.pure.metamodel.valuespecification import ValueSpecification, FunctionExpression, InstanceValue
 
 

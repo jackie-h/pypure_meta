@@ -1,7 +1,7 @@
-from meta import Package
-from meta.pure.metamodel import PropertyOwner, ReferenceUsage, Stereotype, TaggedValue
+
+from meta.pure.metamodel import PropertyOwner, ReferenceUsage
 from meta.pure.metamodel.function.property import Property, QualifiedProperty
-from meta.pure.metamodel.type import Type, ClassProjection, GenericType
+#from meta.pure.metamodel.type import Type, ClassProjection, GenericType
 
 
 class Generalization:
